@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Added padding for better spacing */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo > img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center; /* Align navigation items vertically center */
+  }
+  
+  ul {
+    display: flex;
+    margin: 0; /* Remove default margin for ul */
+    padding: 0; /* Remove default padding for ul */
+    list-style: none; /* Remove default list styles */
+  }
+  
+  li {
+    margin-left: 1.5rem; /*Add margin to create space between items */
+  }
